@@ -1,0 +1,489 @@
+@media only screen and (min-width:1200px){
+	.weltext{
+		margin-top: -7%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-brand > img {
+        width: 200px;
+    }
+    .menu li a {
+        margin-right: 10px;
+        padding: 0 10px 0 0 !important;
+    }
+    .farm-about-content h4 span {
+        margin-right: 12px;
+    }
+    .product-free {
+        left: 40px;
+    }
+    .app-img {
+        width: 55%;
+    }
+	.farm-welcome-text{
+		height:auto !important;
+	}
+	.farm-welcome-text:before{
+		bottom: -10px;
+	}
+	.welcome-text-content {
+		padding-top: 240px !important;
+		padding-bottom: 210.5px !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        width: 130px;
+	}
+    .fixed-txt-farm-welcome-text .item-content {
+  top: 26%;
+}
+    .item-content {
+    top: 38%;
+    }
+	.farm-navbar-area.sticky .navbar-brand{
+		width: 110px;
+	}
+	.farm-welcome-text{
+		height:460px !important;
+	}
+	.welcome-text-content {
+		height: 140px;
+		background-size: 100% auto;
+        padding-top: 67px !important;
+		padding-bottom: 110px !important;
+		background-position: center 30%;
+		width: 60%;
+		margin: auto;
+	}
+	.farm-welcome-text .welcome-text{
+		font-size:35px;
+	}
+    .weltext {
+        margin-top: -40px;
+    }
+	.farm-welcome-text:before{
+		bottom: 0px;
+	}
+    .navbar-brand > img {
+        display: block;
+    }
+	.navbar .container{
+		width:100%;
+	    max-width: 100%;
+	}
+    .menu li:last-child a {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .menu li a {
+        margin-right: 10px;
+        padding: 0 10px 0 0 !important;
+		font-size:14px;
+    }
+	.fa-pencil-square-o {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.farm-social-icon {
+		top:55%;
+	}
+    h2.content-title::before {
+        display: none;
+    }
+    .product-free {
+        display: none;
+    }
+    .farm-single-product div {
+        text-align: center;
+    }
+    .farm-single-project {
+        width: 31.33%
+    }
+    .bloc {
+        font-size: 500px;
+    }
+    .single-client h2 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .single-client a.client-btn {
+        margin-bottom: 20px;
+    }
+    .app-img {
+        width: 60%;
+    }
+    .get-app h2.section-title {
+        margin-left: 0;
+    }
+    .farm-android-mokup .farm-section-title {
+        margin-bottom: 30px;
+    }
+    .app-button a {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .farm-about-content h4 span {
+        float: left;
+    }
+    .farm-single-product::before {
+        display: none
+    }
+    .farm-single-product:hover .hover-product {
+        left: 25%;
+    }
+	.bg-fixed-farm-welcome-text {
+      height: 40vh;
+      position: relative;
+    }
+    .bg-fixed-welcome-text-content {
+      background-size: 100% auto;
+      padding: 50px 0 192px;
+      width: 90%;
+    }
+	.fixed-txt-farm-welcome-text .welcome-text-content {
+      left: 15%;
+      padding-bottom: 140px !important;
+      padding-top: 82px !important;
+      width: 70%;
+    }
+	.fixed-txt-farm-welcome-text .welcome-text{
+		font-size: 43px;
+	}
+}
+@media only screen and (max-width: 840px) {
+	.farm-welcome-text{
+		height:400px !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+    .navbar-brand > img {
+        width: 100px;
+    }
+    .welcome-text {
+        font-size: 25px;
+    }
+	.farm-slider-item {
+		height:300px;
+	}
+	.farm-slider-item img{
+		height:100%;
+	}
+    h2.content-title {
+        font-size: 50px;
+    }
+    .navbar-toggle span {
+        background: #fff none repeat scroll 0 0;
+    }
+    .menu li {
+        text-align: center;
+    }
+    .menu li a {
+        margin-right: 0;
+        padding-right: 0;
+		font-size:14px;
+		line-height: 42px;
+    }
+	.farm-navbar-area .menu, .farm-navbar-area.sticky .menu{
+		padding-bottom:10px;
+	}
+	.farm-navbar-area.sticky .menu li a {
+		line-height: 42px;
+	}
+    .menu li a:before {
+        right: 30%
+    }
+    .farm-social-icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    h2.content-title::before {
+        display: none;
+    }
+    .farm-about-us.section-padding {
+        padding-top: 0;
+    }
+    .farm-about-content h3 {
+        font-size: 20px;
+    }
+    .farm-about-content h4 {
+        font-size: 15px;
+    }
+    .farm-about-content h4 span {
+        background: #333 none repeat scroll 0 0;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 5px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+        float: left;
+    }
+    .farm-about-img {
+        margin-top: 30px;
+    }
+    .farm-single-product::before {
+        display: none;
+    }
+    .product-free {
+        display: none;
+    }
+    h2.section-title {
+        font-size: 40px;
+    }
+    .farm-single-product:hover .hover-product {
+        left: 20%;
+    }
+    .farm-price-content {
+        margin-top: 60px;
+    }
+    .farm-price-content h4 {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .farm-single-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .farm-project-nav li:last-child {
+        margin-right: 0;
+    }
+    .tometo-man {
+        margin-top: 60px;
+    }
+    .bloc {
+        font-size: 350px;
+		top:50px;
+    }
+    .single-client h2 {
+        line-height: 20px;
+        font-size: 14px;
+    }
+	.single-client h4{
+		font-size: 13px;
+	}
+	.single-client-btn a.client-btn{
+		padding:5px 15px;
+		font-size: 35px;
+	}
+    .slick-next.fa.fa-angle-right.slick-arrow {
+        bottom: 1%;
+        font-size: 22px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -65px;
+        right: 40%;
+        top: auto;
+        width: 30px;
+    }
+    .slick-prev.fa.fa-angle-left.slick-arrow {
+        bottom: 1%;
+        font-size: 22px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -65px;
+        left: 40%;
+        top: auto;
+        width: 30px;
+		z-index: 9999;
+    }
+    .single-client,.single-client-btn {
+        padding-right: 0
+    }
+    .app-img {
+        margin-top: 40px;
+        position: relative;
+    }
+    .app-button {
+        text-align: center;
+    }
+    .app-button a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .app-content h4 {
+        text-align: center;
+    }
+    .farm-section-title {
+        margin-bottom: 40px;
+    }
+    .container.RTC {
+        padding-bottom: 0;
+    }
+    .farm-contact-form {
+        margin-bottom: 70px;
+    }
+    .contact-content > p {
+        font-size: 14px;
+    }
+    .single-client a.client-btn {
+        margin-bottom: 30px;
+    }
+    .single-client a.client-btn {
+        padding: 10px 20px;
+    }
+	.bg-fixed-farm-welcome-text {
+  height: 65vh;
+}
+.bg-fixed-welcome-text-content {
+  background-size: 100% auto;
+  padding: 50px 0 76px;
+}
+	.bg-fixed-farm-welcome-text:before{
+		background:none;
+		position:relative;
+	}
+	.bg-fixed-farm-welcome-text .farm-social-icon{
+		top:40%;
+	}
+	.fixed-txt-farm-welcome-text .welcome-text-content{
+		padding-top: 105px !important;
+		padding-bottom: 70px !important;
+		left:10%;
+		background-position: center -25%;
+	}
+	.navbar .navbar-toggler {
+		border-color: #ddd;
+		padding: 3px 7px 3px;
+		margin-top: 0px;
+		cursor: pointer;
+		position: absolute;
+		right: 10px;
+		top: 0;
+	    margin-top: 10px;
+		color: #fff;
+		font-size: 20px;
+	}
+	.farm-navbar-area .navbar , .navbar-expand-sm .navbar-toggler {
+		display: block;
+	}
+	.nav.navbar-nav {
+	    width: 100%;
+	    margin-top: 50px;
+	    display: inline-block;
+	}
+	.farm-navbar-area {
+		background: #000;
+		height: 50px;
+	}
+	.farm-navbar-area .navbar-expand-sm .navbar-collapse.collapse {
+		display: none!important;
+	}
+	.farm-navbar-area .navbar-expand-sm .navbar-collapse.collapse.show {
+		display: block!important;
+	}
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+.item-content {
+  top: 28%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .farm-about-content h4 span {
+        float: none;
+    }
+    .farm-single-product::before {
+        display: block;
+    }
+	.farm-welcome-text{
+		height:380px !important;
+	}
+    .item-content {
+          top: 30%;
+        }
+    .welcome-text-content {
+      background-size: 100% auto;
+      height: 100px;
+      margin: auto;
+      padding-bottom: 246px !important;
+      padding-top: 100px !important;
+      width: 100%;
+    }
+	.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow {
+		left: 50px;
+	}
+	.farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		right: 50px;
+	}
+	.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow, .farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		top:70%;
+	}
+    .product-free {
+        left: 30px;
+    }
+    .single-client h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .slick-next.fa.fa-angle-right.slick-arrow {
+        right: 42%;
+    }
+    .slick-prev.fa.fa-angle-left.slick-arrow {
+        left: 42%;
+    }
+	.single-client {
+		width:75%;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.farm-welcome-text{
+		height:350px !important;
+	}
+    .welcome-text-content {
+      background-size: 100% auto;
+      height: 100px;
+      margin: auto;
+      padding-bottom: 150px !important;
+      padding-top: 50px !important;
+      width: 100%;
+    }
+	.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow {
+		left: 25px;
+	}
+	.farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		right: 25px;
+	}
+	.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow, .farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		top:70%;
+	}
+    .item-content {
+      top: 30%;
+    }
+	.farm-social-icon a {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+	.welcome-text {
+		font-size: 22px;
+	}
+	.farm-about-us{
+		padding-top:25px;
+	}
+	.farm-navbar-area .menu li a {
+		line-height: 35px;
+	}
+	.navbar-nav{
+		margin:0px;
+	}
+	.single-client {
+		width:90%;
+	}
+	.bloc{
+		display:none;
+	}
+}

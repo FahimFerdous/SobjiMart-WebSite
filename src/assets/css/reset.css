@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.slick-slide {
+outline: none !important;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+button,
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.content-title,
+.content-subtitle,
+.section-title {
+    font-family: 'Kalam', cursive;
+}
+
+h2.section-title {
+    font-size: 60px;
+}
+
+h2.content-subtitle {
+    font-size: 40px;
+}
+
+h2.content-title {
+    font-size: 65px;
+}
+
+
+.welcome-text {
+    font-size: 55px;
+    font-family: 'Kalam', cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+select:focus,
+select:active {
+    box-shadow: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.section-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+input:focus,
+input:active {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}

@@ -1,21 +1,846 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="preloader"></div>
+<header class="farm-navbar-area">
+  <nav class="navbar navbar-expand-sm">
+    <div class="container">
+      <div class="navbar-header">
+        <button
+          aria-expanded="false"
+          class="collapsed navbar-toggler"
+          data-target="#bs-example-navbar-collapse-1"
+          data-toggle="collapse"
+          type="button"
+        >
+          ☰
+        </button>
+        <a href="#home" class="navbar-brand">
+          <img alt="" src="assets/img/logo.png"
+        /></a>
+      </div>
+      <div
+        class="collapse navbar-collapse"
+        id="bs-example-navbar-collapse-1"
+      >
+        <ul class="menu ml-auto nav navbar-nav">
+          <li class="nav-item current-menu-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product" class="nav-link">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#prices" class="nav-link">prices</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#gallery" class="nav-link">gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ´s</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item"><a href="#app" class="nav-link">App</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"
+              ><span class="fa fa-pencil-square-o"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<section class="wow fadeIn farm-welcome-text" id="home">
+  <div class="farm-home-slider-area">
+    <div class="farm-home-slider">
+      <div class="farm-slider-item">
+        <img alt="" src="assets/img/home-slider/slide-1.jpg" />
+        <div class="item-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="welcome-text-content">
+                  <div class="weltext">
+                    <h2 class="welcome-text">
+                      <span>Organic</span> products
+                    </h2>
+                    <h2 class="welcome-text">directly from the farm.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="farm-slider-item">
+        <img alt="" src="assets/img/home-slider/slide-2.jpg" />
+        <div class="item-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="welcome-text-content">
+                  <div class="weltext">
+                    <h2 class="welcome-text">Fresh <span>Vegetables</span></h2>
+                    <h2 class="welcome-text">Freshly grown for clients.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="farm-slider-item">
+        <img alt="" src="assets/img/home-slider/slide-3.jpg" />
+        <div class="item-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="welcome-text-content">
+                  <div class="weltext">
+                    <h2 class="welcome-text">
+                      Different <span>Tastes</span>
+                    </h2>
+                    <h2 class="welcome-text">Over 50 different Items.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="farm-slider-item">
+        <img alt="" src="assets/img/home-slider/slide-4.jpg" />
+        <div class="item-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="welcome-text-content">
+                  <div class="weltext">
+                    <h2 class="welcome-text">Organic <span>foods</span></h2>
+                    <h2 class="welcome-text">The natural ingredients.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+<section class="farm-about-us" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="farm-about-content">
+          <h2 class="content-title">About us</h2>
+          <h3 class="wow zoomIn">
+            We have a lot of great new things for you but overall, the Farm
+            Program we created in 2014 will remain.
+          </h3>
+          <h4 class="wow zoomIn">
+            <span>1</span>Mon-Fri: 4-6pm, City Cyclery 553, Windsor
+          </h4>
+          <h4 class="wow zoomIn">
+            <span>2</span>Sat-Sun: 8am-1pm, Downtown Windsor Market
+          </h4>
+          <div class="text-center contact-botton wow zoomIn">
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="wow zoomIn farm-about-img">
+          <img alt="" src="assets/img/about-right.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="farm-latest-products" id="product">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="farm-section-title">
+          <h2 class="section-title">Latest Products</h2>
+          <h4>Directly from the farm, freshly grown for our clients.</h4>
+        </div>
+      </div>
+    </div>
+    <div class="farm-product-slider">
+      <div class="row product-select">
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets\img\latest-products\product-4.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="/assets/img/Latest-products/pro-icon-1.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-2.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-2.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-3.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-3.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-4.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-4.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row product-select">
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-1.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-1.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-2.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-2.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-3.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-3.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-4.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-4.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row product-select">
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-1.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-1.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-2.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-2.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-3.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-3.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="farm-single-product">
+            <div class="single-product">
+              <img alt="" src="assets/img/Latest-products/product-4.png" />
+            </div>
+            <div class="product-free">
+              <img alt="" src="assets/img/Latest-products/pro-icon-4.png" />
+            </div>
+            <div class="hover-product"><a href="#">See Product</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="farm-pricing-list" id="prices">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="wow zoomIn farm-pricing-table">
+          <table>
+            <thead>
+              <tr class="table-heading">
+                <th>product</th>
+                <th>
+                  price
+                  <tbody>
+                    <tr>
+                      <td>Asparagus</td>
+                      <td>$4.50/bunch</td>
+                    </tr>
+                    <tr>
+                      <td>Broccoli</td>
+                      <td>$3.75/head</td>
+                    </tr>
+                    <tr>
+                      <td>Green Onion</td>
+                      <td>$3/bunch</td>
+                    </tr>
+                    <tr>
+                      <td>Carrots</td>
+                      <td>$3/bunch</td>
+                    </tr>
+                    <tr>
+                      <td>Hot Peppers</td>
+                      <td>$3.5/bunch</td>
+                    </tr>
+                    <tr>
+                      <td>Sweet Potato</td>
+                      <td>$2/lb.</td>
+                    </tr>
+                    <tr>
+                      <td>Zucchini</td>
+                      <td>$1/piece</td>
+                    </tr>
+                  </tbody>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-7 mx-md-auto">
+        <div class="farm-price-content">
+          <h2 class="content-title">Price List</h2>
+          <h4>
+            We grow over 50 different crops & several varieties of each
+            item; this is just a partial list.
+          </h4>
+          <h4>
+            These prices are subject to change without notice.
+            <a href="#">Pictures shown</a> are from the seed catalogue
+            websites.
+          </h4>
+          <div class="wow zoomIn contact-botton text-left">
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="farm-portfolio-section" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="farm-section-title">
+          <h2 class="section-title">Product Gallery</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="farm-project-nav">
+        <ul>
+          <li class="active" data-filter="*">all</li>
+          <li data-filter=".vegetables">Vegetables</li>
+          <li data-filter=".fruits">Fruits</li>
+          <li data-filter=".discount">Discount</li>
+          <li data-filter=".seasonal">Seasonal</li>
+        </ul>
+      </div>
+    </div>
+    <div class="farm-project-active">
+      <div class="farm-single-project vegetables">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-1.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Tomatoes</h4>
+      </div>
+      <div class="farm-single-project fruits">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-2.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Mushrooms</h4>
+      </div>
+      <div class="farm-single-project discount">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-3.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Broccoli</h4>
+      </div>
+      <div class="farm-single-project seasonal">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-4.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Ginger</h4>
+      </div>
+      <div class="farm-single-project fruits">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-5.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Potatoes</h4>
+      </div>
+      <div class="farm-single-project vegetables">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-6.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Radish</h4>
+      </div>
+      <div class="farm-single-project discount">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-7.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Garlic</h4>
+      </div>
+      <div class="farm-single-project seasonal">
+        <div class="project-img">
+          <img alt="theiran.com" src="assets/img/product-gallery/product-8.png" />
+          <div class="project-weight"><h3>$4.99 / kg</h3></div>
+        </div>
+        <h4>Bananas</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="farm-faqs-section" id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="farm-faqs-title">
+          <h2 class="content-title">Questions</h2>
+        </div>
+        <div class="farm-house-accourdion">
+          <div
+            class="panel-group"
+            id="accordion"
+            role="tablist"
+            aria-multiselectable="true"
+          >
+            <div class="panel">
+              <div class="card-header" id="headingOne" role="tab">
+                <h4 class="card-title">
+                  <a
+                    href="#collapseOne"
+                    aria-controls="collapseOne"
+                    aria-expanded="true"
+                    data-parent="#accordion"
+                    data-toggle="collapse"
+                    role="button"
+                    >What type of produce can you expect?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="collapse panel-collapse show"
+                id="collapseOne"
+                role="tabpanel"
+                aria-labelledby="headingOne"
+              >
+                <div class="card-body">
+                  <p>
+                    The season is 20 weeks long for the Downtown Windsor
+                    Farmer’s Market, running May 28th to October 8th, Sat
+                    from 8am-1pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="card-header" id="headingTwo" role="tab">
+                <h4 class="card-title">
+                  <a
+                    href="#collapseTwo"
+                    class="collapsed"
+                    aria-controls="collapseTwo"
+                    aria-expanded="false"
+                    data-parent="#accordion"
+                    data-toggle="collapse"
+                    role="button"
+                    >How do you make payment for The Farm House?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="collapse panel-collapse"
+                id="collapseTwo"
+                role="tabpanel"
+                aria-labelledby="headingTwo"
+              >
+                <div class="card-body">
+                  <p>
+                    The season is 20 weeks long for the Downtown Windsor
+                    Farmer’s Market, running May 28th to October 8th, Sat
+                    from 8am-1pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="card-header" id="headingThree" role="tab">
+                <h4 class="card-title">
+                  <a
+                    href="#collapseThree"
+                    class="collapsed"
+                    aria-controls="collapseThree"
+                    aria-expanded="false"
+                    data-parent="#accordion"
+                    data-toggle="collapse"
+                    role="button"
+                    >How long is the season?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="collapse panel-collapse"
+                id="collapseThree"
+                role="tabpanel"
+                aria-labelledby="headingThree"
+              >
+                <div class="card-body">
+                  <p>
+                    The season is 20 weeks long for the Downtown Windsor
+                    Farmer’s Market, running May 28th to October 8th, Sat
+                    from 8am-1pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="card-header" id="headingFour" role="tab">
+                <h4 class="card-title">
+                  <a
+                    href="#collapsefour"
+                    class="collapsed"
+                    aria-controls="collapsefour"
+                    aria-expanded="false"
+                    data-parent="#accordion"
+                    data-toggle="collapse"
+                    role="button"
+                    >What type of produce can you expect?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="collapse panel-collapse"
+                id="collapsefour"
+                role="tabpanel"
+                aria-labelledby="headingFour"
+              >
+                <div class="card-body">
+                  <p>
+                    The season is 20 weeks long for the Downtown Windsor
+                    Farmer’s Market, running May 28th to October 8th, Sat
+                    from 8am-1pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="card-header" id="headingFive" role="tab">
+                <h4 class="card-title">
+                  <a
+                    href="#collapsefive"
+                    class="collapsed"
+                    aria-controls="collapsefive"
+                    aria-expanded="false"
+                    data-parent="#accordion"
+                    data-toggle="collapse"
+                    role="button"
+                    >How much of an experience do you guys have?</a
+                  >
+                </h4>
+              </div>
+              <div
+                class="collapse panel-collapse"
+                id="collapsefive"
+                role="tabpanel"
+                aria-labelledby="headingFive"
+              >
+                <div class="card-body">
+                  <p>
+                    The season is 20 weeks long for the Downtown Windsor
+                    Farmer’s Market, running May 28th to October 8th, Sat
+                    from 8am-1pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="wow zoomIn tometo-man">
+          <img alt="" src="assets/img/faq-right.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<section class="farm-client-says-section" id="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="bloc">​‌<span>“</span></div>
+        <div class="single-client-btn">
+          <a href="#" class="client-btn">Reviews</a>
+        </div>
+      </div>
+    </div>
+    <div class="row blocquate-slick">
+      <div class="col-12 col-md-11 text-right">
+        <div class="single-client">
+          <h2>
+            "I believe it’s the organic foods and quality of the natural
+            ingredients that help me feel this great."
+          </h2>
+          <h4>- Kate Jonson</h4>
+        </div>
+      </div>
+      <div class="col-12 col-md-11 text-right">
+        <div class="single-client">
+          <h2>
+            "I believe it’s the organic foods and quality of the natural
+            ingredients that help me feel this great as the Farm House makes
+            me."
+          </h2>
+          <h4>- Kate Ferguson</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="farm-sponsor-section" id="sponsor">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sponsor-slider-active">
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-1.png"/></a>
+          </div>
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-2.png"/></a>
+          </div>
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-3.png"/></a>
+          </div>
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-4.png"/></a>
+          </div>
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-1.png"/></a>
+          </div>
+          <div class="farm-single-sponsor">
+            <a href="#"><img alt="" src="assets/img/sponsors/sponsor-2.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<section class="farm-android-mokup" id="app">
+  <div class="container RTC">
+    <div class="row">
+      <div class="col-md-6 app-content text-left">
+        <div class="get-app">
+          <div class="farm-section-title text-left">
+            <h2 class="section-title">Our App</h2>
+          </div>
+        </div>
+        <h4>Our App looks great on any device! Download it today:</h4>
+        <div class="text-left app-button">
+          <a href="#"><img alt="" src="assets/img/app-store.png"/></a
+          ><a href="#"><img alt="" src="assets/img/google-play.png"/></a>
+        </div>
+      </div>
+      <div class="app-img">
+        <img alt="" src="assets/img/app-mobile-view.png" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="farm-contact-section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="farm-section-title">
+          <h2 class="section-title">Contact Details</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="contact-form">
+          <div class="farm-contact-form">
+            <div class="success">
+              Your message has been sent successfully.
+            </div>
+            <div class="error">
+              E-mail must be valid and message must be longer than 1
+              character.
+            </div>
+            <div class="single-inputc">
+              <input
+                id="name"
+                name="name"
+                placeholder="Name*"
+                required=""
+              />
+            </div>
+            <div class="single-inputc">
+              <input
+                id="email_address"
+                name="email_address"
+                placeholder="Email*"
+                required=""
+                type="email"
+              />
+            </div>
+            <div class="single-inputc">
+              <input
+                id="phone_number"
+                name="phone_number"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="porpose">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+              <select
+                class="porpose-select"
+                id="contact_reason"
+                name="contact_reason"
+                ><option value="Purpose of the message"
+                  >Purpose of the message</option
+                ><option value="Purpose of the message"
+                  >Purpose of the message</option
+                ><option value="Purpose of the message"
+                  >Purpose of the message</option
+                ><option value="Purpose of the message"
+                  >Purpose of the message</option
+                ></select
+              >
+            </div>
+            <div class="text-area">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Message ..."
+              ></textarea>
+            </div>
+            <div class="single-submit">
+              <input
+                id="submit"
+                name="submit"
+                type="submit"
+                value="Contact Us"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="single-contact">
+          <div class="contact-icon"><i class="fa fa-map-marker"></i></div>
+          <div class="contact-content">
+            <h3>Our Location</h3>
+            <p>690 School House Road Jackson, MS 39201</p>
+          </div>
+        </div>
+        <div class="single-contact">
+          <div class="contact-icon"><i class="fa fa-phone"></i></div>
+          <div class="contact-content">
+            <h3>Phone & Fax</h3>
+            <p>(012) 345 - 6789 or 555-6578 987</p>
+          </div>
+        </div>
+        <div class="single-contact">
+          <div class="contact-icon"><i class="fa fa-envelope-o"></i></div>
+          <div class="contact-content">
+            <h3>Our Email</h3>
+            <p>contact@the-farm-house.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="copyright-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>
+          © 2018 The Farm House <span class="fa fa-heart"></span> by
+          <a
+            href="https://themeforest.net/user/envalab/portfolio?ref=envalab"
+            >ENVALAB</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div>
+  <a href="#" class="text-center scrollToTop"
+    ><i class="fa fa-angle-up scroll-fa" aria-hidden="true"></i
+  ></a>
+</div>
 
 <router-outlet></router-outlet>

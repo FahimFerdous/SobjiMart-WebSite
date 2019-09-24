@@ -1,1 +1,1072 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+Theme Name: The Farm House - One Page Organic Food, Fruit and Vegetables Products HTML5 Template
+Theme URI: http://live.envalab.com/html/the-farm-house
+Author: ENVALAB TEAM
+Author URI: http://envalab.com/
+Description: The Farm House – One Page Organic Food, Fruit & Vegetables Products HTML5 Template that perfectly designed for all kinds of organic farming business and Organic Store, including organic food, organic fruits and vegetables, organic farm, agricultural company or basically everything related to eco-friendly lifestyle.
+Version: 1.0
+*/
+
+/**
+ *** Table of Content ***
+ * Header area
+ * Slider area
+ * About area
+ * Product area
+ * Prices area
+ * Portfolio area
+ * Faq area
+ * Testimonial top area
+ * Sponsor area
+ * App area
+ * Contact area
+ * Footer area
+ * Scroll top area
+ * Only-Text-slider-with-fixed-background-image css
+ * Only-Image-slider-with-fixed-Text css
+ * Pre Loader Style
+**/
+
+/* Header area start */
+.farm-navbar-area {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    transition: 2s;
+}
+.farm-navbar-area.sticky {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 55;
+    transition: 1s;
+}
+.farm-navbar-area.sticky .menu li a {
+    line-height: 80px;
+}
+.farm-navbar-area.sticky .navbar-brand {
+    width: 140px;
+}
+nav.navbar {
+    background: #141414 none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 0;
+}
+.navbar-brand {
+    padding: 0;
+    width: 180px;
+    position: absolute;
+    top: 0;
+}
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 0 20px 0 0 !important;
+    margin-right: 20px;
+    position: relative;
+    line-height: 100px;
+    transition: .4s;
+}
+.fa-pencil-square-o {
+    color: #fff;
+    font-size: 19px;
+    background: #ff4301;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    transition: .4s;
+}
+.fa-pencil-square-o:hover {
+    background: #fff;
+    color: #ff4301;
+}
+.menu li a::before {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    content: "";
+    background: #727272;
+    right: 0;
+    top: 50%;
+    margin-top: -1.5px;
+}
+.menu li:last-child a::before {
+    display: none;
+}
+.menu li a:hover {
+    color: #ff4301;
+    text-decoration: underline;
+}
+.menu li.current-menu-item a {
+    color: #ff4301;
+    text-decoration: underline;
+}
+/* Header area end */
+
+/* Slider area start */
+.farm-welcome-text {
+    color: #fff;
+    position: relative;
+}
+.noslider {
+    background: rgba(0, 0, 0, 0) url("assets/img/welcome-bg.jpg") no-repeat scroll center center / cover;
+}
+.welcome-text span {
+    color: #ff4301;
+    text-decoration: underline;
+}
+.farm-welcome-text::before {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(assets/img/cloud-bg.png) no-repeat center center / cover;
+    content: "";
+    height: 150px;
+    z-index: 22;
+}
+.farm-slider-item img{
+    width:100%;
+}
+.welcome-text-content {
+    background: url(assets/img/transparent-bg.png) no-repeat center 55%;
+}
+.farm-social-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 25;
+}
+.farm-social-icon a {
+    background: #fff none repeat scroll 0 0;
+    color: #141414;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    transition: .4s;
+}
+.farm-social-icon a:hover {
+    background: #5068ac;
+    color: #fff;
+    position: relative;
+    right: 5px;
+}
+.farm-social-icon a:last-child {
+    margin-bottom: 0;
+}
+.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow {
+    left: 90px;
+}
+.farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow {
+    right: 90px;
+}
+.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow,
+.farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow {
+    top:60%;
+    color: #FF4301;
+    background:rgba(0, 0, 0, .5);
+}
+.farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow:hover,
+.farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow:hover {
+    color:#fff;
+}
+.big-background-default-image {
+    background-image: url(assets/img/welcome-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    z-index:0;
+    backface-visibility:hidden
+}
+/* slider area end */
+
+/* start about us area */
+.farm-about-us {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+h2.content-title,
+h2.content-subtitle {
+    color: #ff4301;
+}
+.farm-about-content h3 {
+    color: #333333;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.farm-about-content h4 span {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px;
+    text-align: center;
+    width: 50px;
+    position: relative;
+}
+.farm-about-content span::before {
+    border: 1px solid #535353;
+    border-radius: 50%;
+    content: "";
+    height: 85%;
+    left: 7.5%;
+    position: absolute;
+    top: 7.5%;
+    width: 85%;
+}
+.farm-about-content h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+h2.content-title {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+}
+h2.content-title::before {
+    background: #f3f3f3 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%;
+}
+.contact-botton a {
+    background: #333333 none repeat scroll 0 0;
+    box-shadow: 7px 7px 0 #d6d6d6;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 40px;
+    margin-top: 30px;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.contact-botton a:hover {
+    background: #ff4301 none repeat scroll 0 0;
+}
+.farm-about-us .contact-botton a {
+    background: #ff4301;
+    box-shadow: 7px 7px 0 #ffd9cc;
+}
+.farm-about-us .contact-botton a:hover {
+    background: #000;
+}
+/* start about us end */
+
+/* product area start*/
+#product .farm-product-slider .col-md-6 {
+	float: left;
+}
+.farm-latest-products .farm-section-title {
+    background:none;
+}
+.farm-section-title h2 {
+    background: url(assets/img/title-bg.png) no-repeat center center;
+}
+.farm-section-title h4 {
+    margin-top: 10px;
+}
+.farm-latest-products {
+    background: #f7f7f7;
+    position: relative;
+    padding-top: 145px;
+    padding-bottom: 95px;
+}
+.farm-single-product div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.farm-single-product img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.farm-single-product {
+    background: #fff none repeat scroll 0 0;
+    height: 240px;
+    line-height: 248px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.farm-single-product::before {
+    background: #333333 none repeat scroll 0 0;
+    content: "";
+    height: 170%;
+    position: absolute;
+    right: -25%;
+    top: -69%;
+    transform: rotate(-34deg);
+    width: 70%;
+}
+.product-free {
+    left: 110px;
+    position: relative;
+}
+.product-select .col-md-6:nth-child(even) .farm-single-product::before {
+    background: #333333;
+}
+.farm-section-title {
+    margin-bottom: 65px;
+}
+.farm-latest-products::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(assets/img/latest-product-bg.png) no-repeat center center;
+    content: "";
+    background-attachment: fixed;
+}
+.hover-product {
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: .4s;
+}
+.hover-product a {
+    background: #ff4301 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    line-height: normal;
+    padding: 8px 40px;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 40px;
+    -webkit-box-shadow: 8px 8px 0px rgba(255, 67, 1, 0.2);
+    -moz-box-shadow: 8px 8px 0px rgba(255, 67, 1, 0.2);
+    box-shadow: 8px 8px 0px rgba(255, 67, 1, 0.2);
+}
+.farm-single-product:hover .hover-product {
+    left: 10%;
+}
+.product-select .col-md-6:nth-child(odd) .farm-single-product:hover {
+    border: 2px solid #ff4301
+}
+.product-select .col-md-6:nth-child(even) .farm-single-product:hover {
+    border-color: #ff4301
+}
+.farm-product-slider .slick-dots {
+    margin-top: 50px;
+}
+.slick-dots {
+    text-align: center;
+}
+.slick-dots li {
+    display: inline-block;
+}
+.slick-dots li button {
+    background: #d9d9d9 none repeat scroll 0 0;
+    border-radius: 50px;
+    font-size: 0;
+    height: 8px;
+    margin-right: 5px;
+    width: 30px;
+	cursor: pointer;
+}
+.slick-dots li.slick-active button {
+    background: #787878;
+}
+/* product area end */
+
+/* prices area start */
+.farm-pricing-list{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.table-heading {
+  background: #333333 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.farm-pricing-table tbody {
+    padding: 10px 20px;
+}
+.farm-pricing-table tbody tr {
+    border-bottom: 2px solid #f7f7f7;
+}
+.farm-pricing-table tbody tr:last-child{
+    border-bottom:none;
+}
+.farm-pricing-table table {
+    width: 100%;
+    border: 2px solid #f7f7f7
+}
+.farm-pricing-table td {
+    padding:13px 16px;
+}
+.farm-pricing-table th {
+    padding: 11px 16px;
+}
+.farm-pricing-table tr {
+    position: relative;
+}
+.farm-pricing-table tr::before {
+    background: #ddd none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+}
+.farm-pricing-table tr:first-child::before,
+.farm-pricing-table tr:last-child::before {
+    opacity: 0;
+}
+.farm-pricing-table tr td:last-child {
+    color: #8f8f8f;
+}
+.farm-price-content h2 {
+    margin-top:15px;
+    margin-bottom:25px;
+}
+.farm-price-content h4 {
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+.farm-price-content .contact-botton a {
+    margin-top: 20px;
+}
+.farm-price-content h2.content-title::before {
+    width: 55%;
+}
+/* prices area end */
+
+/* portfolio area start */
+.farm-portfolio-section {
+    background-color: #333333;
+    background-image: url(assets/img/product-gallery-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+.farm-portfolio-section .farm-section-title {
+    margin-bottom: 35px;
+}
+.farm-portfolio-section .farm-section-title h2 {
+    background:none;
+}
+.farm-portfolio-section .farm-section-title {
+    color: #fff;
+    background: url(assets/img/project-title.png) no-repeat center center;
+}
+.farm-project-nav {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.farm-portfolio-section .farm-project-nav {
+    width: 100%;
+}
+.farm-project-nav li {
+    display: inline-block;
+    text-transform: capitalize;
+    transition: .4s;
+    margin-right: 35px;
+}
+.farm-project-nav li:last-child {
+    margin-right: 0
+}
+.farm-project-nav li:hover,
+.farm-project-nav li.active {
+    color: #ff4301;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.farm-single-project {
+    float: left;
+    height: 320px;
+    line-height: 260px;
+    margin: 1%;
+    text-align: center;
+    width: 23%;
+    cursor: pointer;
+}
+.project-img {
+    background: #fff;
+    box-shadow: 7px 7px 1px #454545;
+    position: relative;
+    overflow: hidden;
+}
+.project-weight {
+    background: #ff4301 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: -100px;
+    transition: .4s;
+}
+.project-weight h3 {
+    line-height: 55px;
+}
+.farm-single-project:hover .project-weight {
+    bottom: 0;
+}
+.farm-single-project > h4 {
+    color: #fff;
+    line-height: 0;
+    position: relative;
+    z-index: 54;
+    line-height: 50px;
+}
+/* portfolio area end */
+
+/* faq area start */
+.farm-faqs-section {
+    padding-top: 150px;
+    padding-bottom: 145px;
+}
+.farm-house-accourdion {
+    margin-top: 40px
+}
+.card-header a {
+    color: #333333;
+    font-size: 18px;
+    padding: 18px 15px;
+    display: block;
+}
+.card-body {
+    background: #f3f3f3 none repeat scroll 0 0;
+    color: #333;
+    font-size: 15px;
+}
+.card-header.active a {
+    color:#989898;
+}
+.card-header a[aria-expanded="true"] {
+    color:#989898;
+}
+.card-header a[aria-expanded="true"]::before {
+    content: "\f107";
+    line-height: 20px;
+}
+.card-header a {
+    position: relative;
+}
+.card-header a::before {
+    position: absolute;
+    content: "\f105";
+    font-family: fontawesome;
+    right: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    background: #ff4301;
+}
+.panel-collapse.collapse.show .card-body {
+    border-color: #fff !important;
+}
+.card-header {
+    padding: 0;
+	background: transparent;
+}
+.card-body {
+    border-top: 1px solid #ececec;
+}
+.card-title {
+    margin-bottom: 0;
+}
+.farm-house-accourdion .panel-group .panel {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    box-shadow: none;
+}
+/* faq area end */
+
+/* testimonial top area start */
+.farm-client-says-section {
+    background: url(assets/img/testimonial-bg.jpg) no-repeat center center / cover;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.farm-client-says-section::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    content: "";
+    left: 0;
+    top: 0;
+}
+.single-client-btn {
+    padding-right: 10%;
+    float:right;
+}
+.single-client-btn a.client-btn {
+    background: #ff4301 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    transition: .4s;
+    font-family: 'Kalam', cursive;
+}
+.single-client-btn a.client-btn:hover {
+    color: #ff4301;
+    background: #fff;
+}
+.single-client {
+    color: #fff;
+    width:70%;
+    float:right;
+}
+.single-client h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    font-style: italic;
+}
+.single-client h2.content-subtitle {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #fff;
+}
+.bloc {
+    font-size: 590px;
+    height: 150px;
+    line-height: 150px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    color: #fff;
+}
+.bloc > span {
+    display: inline-block;
+}
+.blocquate-slick {
+    position: static;
+}
+.slick-prev.fa.fa-angle-left.slick-arrow {
+    height: 130px;
+    left: 0;
+    position: absolute;
+    width: 70px;
+	cursor: pointer;
+    line-height: 130px;
+    top: 50%;
+    margin-top: -65px;
+    font-size: 50px;
+    color: #fff;
+    background: rgba(255, 255, 255, .3);
+    transition: .4s;
+    z-index: 5;
+}
+.slick-next.fa.fa-angle-right.slick-arrow {
+    height: 130px;
+    right: 0;
+    position: absolute;
+    width: 70px;
+	cursor: pointer;
+    line-height: 130px;
+    top: 50%;
+    margin-top: -65px;
+    font-size: 50px;
+    color: #fff;
+    background: rgba(255, 255, 255, .3);
+    transition: .4s;
+}
+.single-client {
+    padding-right: 10%;
+}
+.slick-next.fa.fa-angle-right.slick-arrow:hover,
+.slick-prev.fa.fa-angle-left.slick-arrow:hover {
+    background: #e73d01;
+}
+.single-client h4 {
+    padding-top: 30px;
+    text-transform:uppercase;
+}
+/* testimonial top area end */
+
+/* sponsor area start */
+.farm-sponsor-section{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.farm-sponsor-title h2.content-title::before {
+    width: 73%;
+}
+.farm-single-sponsor {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.farm-single-sponsor img {
+    opacity: .5;
+    transition: .4s;
+}
+.farm-single-sponsor:hover img {
+    opacity: 1
+}
+.sponsor-prev.slick-prev.fa.fa-angle-left.slick-arrow {
+    background: transparent none repeat scroll 0 0;
+    color: #e6e6e6;
+    font-size: 50px;
+    height: 50px;
+    left: auto;
+    line-height: 50px;
+    margin-right: 0;
+    position: absolute;
+    right: 7%;
+    top: -35%;
+    width: 50px;
+    transition: .4s;
+}
+.sponsor-next.slick-next.fa.fa-angle-right.slick-arrow {
+    background: transparent none repeat scroll 0 0;
+    color: #e6e6e6;
+    font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    top: -35%;
+    width: 50px;
+    transition: .4s;
+}
+.sponsor-next.slick-next.fa.fa-angle-right.slick-arrow:hover,
+.sponsor-prev.slick-prev.fa.fa-angle-left.slick-arrow:hover {
+    color: #ff4301
+}
+.sponsor-slider-active .slick-slide img {
+    display: inline-block;
+}
+/* sponsor area end */
+
+/* app area start */
+.farm-section-title {
+    background: rgba(0, 0, 0, 0) url("assets/img/our-app-bg.png") no-repeat scroll center center;
+}
+.farm-android-mokup .farm-section-title {
+    background-position: left center;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.get-app h2.section-title {
+    margin-left: 50px;
+    color: #333333;
+}
+.app-content h4 {
+    color: #333333;
+    margin-bottom: 40px;
+}
+.app-button {
+    margin-top:10px;
+}
+.app-button img {
+    margin-right: 20px
+}
+.RTC {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.app-img {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.farm-android-mokup .farm-section-title {
+    margin-bottom: 25px;
+}
+.farm-android-mokup {
+    background: #f7f7f7;
+    padding-top: 35px;
+}
+/* app area end */
+
+/* contact area start */
+.farm-contact-section {
+    background: #333333;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.farm-contact-section .farm-section-title {
+    background: url(assets/img/contact-title-bg.png) no-repeat center center;
+    color: #fff
+}
+.farm-contact-section .farm-section-title h2 {
+    background:none;
+}
+.single-inputc input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #424242;
+    border-radius: 6px;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 100%;
+}
+select.porpose-select {
+    background: #333;
+    border: 1px solid #424242;
+    border-radius: 7px;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 100%;
+    opacity: .6;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.porpose .fa {
+    color: #8C8C8C;
+    font-size: 25px;
+    position: absolute;
+    right: 6%;
+    padding-top: 12px;
+    font-weight: bold;
+}
+select::-moz-focus-inner {
+    border: 0;
+    outline: 0;
+}
+.text-area textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #424242;
+    border-radius: 7px;
+    color: #fff;
+    height: 150px;
+    margin-bottom: 30px;
+    opacity: 155;
+    padding: 15px;
+    width: 100%;
+}
+.single-submit input {
+    background: #ff4301 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    text-transform: capitalize;
+    width: 150px;
+    box-shadow: 5px 5px 0 #5c3629;
+    transition: .4s;
+}
+.single-submit input:hover {
+    background: #fff;
+    color: #ff4301;
+}
+select.porpose-select option {
+    padding-left: 15px;
+}
+.single-contact {
+    background: #282828 none repeat scroll 0 0;
+    padding: 40px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-content > h3 {
+    color: #fff;
+}
+.contact-content {
+    color: #a8a8a8;
+    padding-left: 100px;
+}
+.contact-icon {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #000;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: center;
+    width: 60px;
+    font-size: 24px;
+}
+.single-contact:hover p {
+    color: #ff4301;
+}
+.farm-contact-form {
+    overflow: hidden;
+}
+.farm-contact-form .success,
+.farm-contact-form .error {
+    display: none;
+}
+.farm-contact-form .success  {
+    color: green;
+}
+.farm-contact-form .error  {
+    color: red;
+}
+/* app area end */
+
+/* footer area start */
+.copyright-section span {
+    color: #8f8f8f;
+}
+.copyright-section a {
+    color: #8f8f8f;
+}
+.copyright-section {
+    color: #333333;
+    padding: 25px 0;
+}
+/* footer area end */
+
+/*finalize css*/
+.farm-price-content h4 a {
+    color: #ff4301;
+    text-decoration: underline;
+}
+
+/*final css*/
+.item-content {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+}
+.farm-slider-item{
+    position: static;
+}
+
+/*scroll to top start*/
+.scrollToTop {
+    margin: 0;
+    position: fixed;
+    bottom: 17px;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    z-index: 1000;
+    display: none;
+    text-decoration: none;
+    background: #ff4301;
+    opacity:0.9;
+    border-radius:100%;
+    transition:all 0.2s;
+}
+.scrollToTop  .scroll-fa {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 0px;
+    opacity: 1;
+    padding-top:4px;
+    transition:all 0.2s;
+}
+.scrollToTop:hover {
+    opacity: 1;
+}
+.scrollToTop:hover .scroll-fa {
+    color:#000;
+}
+/*scroll to top end*/
+
+/* Only-Text-slider-with-fixed-background-image css*/
+.bg-fixed-farm-welcome-text {
+    color: #fff;
+    height: 100vh;
+}
+.bg-fixed-farm-welcome-text::before {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(assets/img/cloud-bg.png) no-repeat center center / cover;
+    content: "";
+    height: 150px;
+    z-index: 22;
+}
+.bg-fixed-welcome-text-content {
+    background: url(assets/img/transparent-bg.png) no-repeat center 88%;
+    padding:230px 0px;
+}
+
+/* Only-Image-slider-with-fixed-Text css */
+.fixed-txt-farm-welcome-text {
+    color: #fff;
+    position: relative;
+}
+.fixed-txt-farm-welcome-text::before {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(assets/img/cloud-bg.png) no-repeat center center / cover;
+    content: "";
+    height: 150px;
+    z-index: 22;
+}
+.fixed-txt-farm-welcome-text .farm-home-slider img {
+    width: 100%;
+}
+.fixed-txt-farm-welcome-text .item-content {
+    position: absolute;
+    z-index: 99;
+}
+.fixed-txt-farm-welcome-text .welcome-text-content {
+    top: 0;
+    position: absolute;
+    left: 0;
+    padding:250px 0px !important;
+    width: 100%;
+}
+.fixed-txt-farm-welcome-text .farm-home-slider-area button {
+    z-index: 999;
+}
+/* END Only-Image-slider-with-fixed-Text css */
+
+/* Parralax-Background css */
+
+/* END Parralax-Background css */
+
+/* Pre Loader Style */
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 988899;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('assets/img/loader.gif') no-repeat center center;
+}
+/* END of Pre Loader Style */
